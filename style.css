@@ -1,12 +1,14 @@
 body{
     margin: 0px;
+    font-family: "Madimi One";
+    background-color: aliceblue;
 }
 #logo{
     margin-top: 30px;
     margin-left: 20px;
 }
 header{
-    background-color:rgba(67, 8, 144, 0.903);
+    background-color: lightblue;
     width: 100%;
     height: 120px;
 }
@@ -27,10 +29,20 @@ main{
     margin-top: 15px;
 }
 .box{
-    background-color: grey;
+    background-color: lightgrey;
     width: 95%;
     border-radius: 10px;
     height: 100%;
     justify-self: center;
     text-align: center;
+}
+#insta{
+    font-size: 3rem;
+}
+
+#face{
+    font-size: 2.7rem;
+}
+.stuff{
+    list-style-position: inside;
 }
