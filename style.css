@@ -1,0 +1,36 @@
+body{
+    margin: 0px;
+}
+#logo{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+header{
+    background-color:rgba(67, 8, 144, 0.903);
+    width: 100%;
+    height: 120px;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+    gap:15px;
+    margin: 15px;
+    width: 100%;
+    height: 100vh;
+}
+
+#me{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+.box{
+    background-color: grey;
+    width: 95%;
+    border-radius: 10px;
+    height: 100%;
+    justify-self: center;
+    text-align: center;
+}
